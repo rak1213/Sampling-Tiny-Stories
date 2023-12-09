@@ -33,6 +33,7 @@ Thirdly, the evaluation is based on a synthetic dataset (TinyStories) specifical
 In summary, measuring performance for this LM is more challenging due to the subjective nature of text generation evaluation. The authors address this challenge by using GPT-4 for grading, but limitations exist in terms of subjectivity, evaluation dimensions, and dataset representativeness.
 
 ## Parameter Selection
+For the sampling tasks i have used TinyStories-2Layers-33M transformer from [Hugging Face Transformers](https://huggingface.co/roneneldan). This transformer has 2 layers and 33 million parameters.
 
 Temperature: This parameter controls randomness in the model's output. A higher temperature leads to more random completions, enhancing creativity but potentially at the cost of grammatical or logical consistency. Conversely, a lower temperature results in more predictable and conservative text.
 
