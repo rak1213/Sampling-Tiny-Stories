@@ -1,0 +1,9 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.8 # Specify the Python version you need
+  - pip
+  - pip:
+      - transformers # This will install the latest version of transformers
+      - torch # This will install the latest version of PyTorch
